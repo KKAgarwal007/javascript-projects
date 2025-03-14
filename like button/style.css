@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffac5f;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 400px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+}
+
+.container img{
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container i{
+    color: rgb(255, 50, 50);
+    font-size: 75px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.9;
+    transition: transform ease-out 0.5s;
+}

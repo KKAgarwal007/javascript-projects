@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.container h1{
+    color: white;
+    font-size: 70px;
+    text-decoration: underline;
+    font-weight: 900;
+
+}
+
